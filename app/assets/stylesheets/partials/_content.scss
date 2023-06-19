@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+  background-color: #333;
   padding-top: 20px;
   padding-left: 200px;
   padding-right: 200px;
@@ -25,4 +26,39 @@ body {
 
 section {
   padding: 50px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #dcdcdc;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ff00ff;
+}
+
+h2 {
+  font-size: 28px;
+  color: #00ffff;
+}
+
+h3 {
+  font-size: 24px;
+  color: #ff6600;
+}
+
+h4 {
+  font-size: 20px;
+  color: #ffff00;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
 }
