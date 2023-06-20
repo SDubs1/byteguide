@@ -74,3 +74,25 @@
   text-decoration: none;
   font-weight: bold;
 }
+
+.wtf-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff00ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.wtf-button:hover {
+  color: 0 0 10px 4px rgb(55, 255, 71);
+  box-shadow: 0 0 10px 4px rgb(55, 255, 71);
+}
+
+.wtf-buttoncontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
