@@ -10,45 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-    <style>
-      body {
-        font-family: 'Roboto Mono', monospace;
-        line-height: 1.6;
-        background-color: #f4f4f4;
-        color: #333;
-      }
 
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-      }
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var toggleButton = document.querySelector("#navbar-dropdown-toggle");
+        var dropdownMenu = document.querySelector("#navbar-dropdown-menu");
 
-      main {
-        padding: 20px;
-      }
+        toggleButton.addEventListener("click", function() {
+          if (dropdownMenu.style.display === "none") {
+            dropdownMenu.style.display = "block";
+          } else {
+            dropdownMenu.style.display = "none";
+          }
+        });
+      });
+    </script>
 
-      section {
-        padding: 50px;
-      }
-    </style>
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><%= link_to 'Learn', learn_path %></li>
-        <li><%= link_to 'Guides', guides_path %></li>
-        <li><%= link_to 'Best Practices', best_practices_path %></li>
-        <li><%= link_to 'Red Flags 🚩', red_flag_checklist_path %></li>
-        <li><%= link_to 'Fun Stuff To Do!', fun_stuff_path %></li>
-        <li><%= link_to 'Opportunities', opportunities_path %></li>
-        <li><%= link_to 'FAQ', faq_path %></li>
-        <li><%= link_to 'Blog', blog_path %></li>
-        <li><%= link_to 'ETHEREUM?', links_path %></li>
-      </ul>
-    </nav>
-
+<%= render 'layouts/navbar' %>
     <main>
       <%= yield %>
     </main>
