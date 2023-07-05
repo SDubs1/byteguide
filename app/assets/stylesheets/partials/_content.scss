@@ -3,8 +3,6 @@ main {
 }
 
 header {
-  // background-color: #333;
-  // color: #fff;
   padding: 10px;
 }
 
@@ -24,20 +22,6 @@ body {
   flex-direction: column;
 }
 
-// .container::before {
-//   content: "";
-//   position: relative;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-image: url("https://ethereum.org/static/c48a5f760c34dfadcf05a208dab137cc/d1ef9/eth-diamond-rainbow.png");
-//   background-repeat: no-repeat;
-//   background-size: contain;
-//   opacity: 0.1;
-//   z-index: -1;
-// }
-
 section {
   padding: 5px;
 }
@@ -46,7 +30,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   color: #dcdcdc;
-  // margin-bottom: 10px;
   margin-top: 0;
 }
 
@@ -145,4 +128,18 @@ a:hover {
 .ethereum-logo {
   width: 200px; /* Adjust the size as desired */
   margin-bottom: 50px;
+}
+
+@media (max-width: 510px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol {
+    font-size: 75%;
+  }
 }
