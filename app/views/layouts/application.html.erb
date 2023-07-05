@@ -10,26 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        var toggleButton = document.querySelector("#navbar-dropdown-toggle");
-        var dropdownMenu = document.querySelector("#navbar-dropdown-menu");
-
-        toggleButton.addEventListener("click", function() {
-          if (dropdownMenu.style.display === "none") {
-            dropdownMenu.style.display = "block";
-          } else {
-            dropdownMenu.style.display = "none";
-          }
-        });
-      });
-    </script>
-
+    <%= render 'layouts/navbar_dropdown' %>
   </head>
 
   <body>
-<%= render 'layouts/navbar' %>
+    <%= render 'layouts/navbar' %>
     <main>
       <%= yield %>
     </main>

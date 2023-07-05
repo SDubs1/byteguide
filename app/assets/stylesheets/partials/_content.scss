@@ -17,10 +17,8 @@ body {
 
 .container {
   background-color: #333;
-  padding-top: 70px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 20px;
+  padding: 50px;
+  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
