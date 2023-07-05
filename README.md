@@ -2,6 +2,10 @@
 
 ByteGuide is an educational website/app designed specifically to provide digestible educational content about Web3 for artists, developers, and individuals with general curiosity. It aims to be a resourceful platform for learning about various Web3 concepts and technologies, including blockchain, NFTs, smart contracts, DeFi, and more.
 
+## Target Audience
+-  Artists and creators who want to learn more about web3.
+-  Developers who want to understand web3 beyond the hype and discover opportunities within the web3 space.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -46,7 +50,7 @@ This section offers fun activities in the Web3 space, such as learning modules t
 
 ### Opportunities
 
-The "Opportunities" section showcases challenges in the Web3 space, where developers can contribute and potentially find career opportunities. It may also feature job postings related to Web3 technologies. Please note that this section is currently under development and does not display any content.
+The "Opportunities" section showcases challenges in the Web3 space, where newcomers can find fun and potentially lucrative activities and developers can contribute and potentially find career opportunities. It may also feature job postings related to Web3 technologies. Please note that this section is currently under development and does not display any content.
 
 ### FAQ
 
