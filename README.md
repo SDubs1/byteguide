@@ -1,24 +1,65 @@
-# README
+# ByteGuide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ByteGuide is an educational website/app designed specifically to provide digestible educational content about Web3 for artists, developers, and individuals with general curiosity. It aims to be a resourceful platform for learning about various Web3 concepts and technologies, including blockchain, NFTs, smart contracts, DeFi, and more.
 
-Things you may want to cover:
+## Table of Contents
 
-* Ruby version
+- [Introduction](#introduction)
+- [UI and Site Navigation](#ui-and-site-navigation)
+- [License](#license)
+- [Disclaimer](#disclaimer)
 
-* System dependencies
+## Introduction
 
-* Configuration
+Currently, ByteGuide is in its early development phase and built using Ruby on Rails, allowing flexibility to add more complex features in the future. The site comprises basic navigation functionality with different sections where users can explore and learn about Web3 and related topics.
 
-* Database creation
+## UI and Site Navigation
 
-* Database initialization
+The website consists of the following main sections:
 
-* How to run the test suite
+### Landing Page
 
-* Services (job queues, cache servers, search engines, etc.)
+- Welcome to ByteGuide!
+- What is web3? (links to "Learn" section)
+- How do I use web3? (links to "Guides" section)
+- How do I not screw it all up? (links to "Best Practices" section)
 
-* Deployment instructions
+### Learn
 
-* ...
+This section contains educational articles covering a range of Web3 topics, such as blockchain, tokens, NFTs, wallets, gas, layer 2 solutions, smart contracts, dApps, DeFi, DEXs, DAOs, and more.
+
+### Guides
+
+In this section, users can find detailed guides and comparisons related to Web3 technologies, including wallet options, staking solutions, and other essential tools and platforms.
+
+### Best Practices
+
+The "Best Practices" section presents general guidelines for staying safe in the Web3 and crypto space. These practices are commonly recognized as essential safety measures and are important for newcomers to understand.
+
+### Red Flags
+
+Complementing the "Best Practices" section, this area highlights red flags to watch out for, helping users avoid traps, scams, rugpulls, and phishing attacks in the crypto world.
+
+### Fun Stuff To Do!
+
+This section offers fun activities in the Web3 space, such as learning modules that reward users with free crypto, puzzles with ETH prizes or generative art NFTs, and easy onboarding and NFT minting options for artists. Please note that this section is currently under development and does not display any content.
+
+### Opportunities
+
+The "Opportunities" section showcases challenges in the Web3 space, where developers can contribute and potentially find career opportunities. It may also feature job postings related to Web3 technologies. Please note that this section is currently under development and does not display any content.
+
+### FAQ
+
+This section addresses frequently asked questions about Web3 that may not fit into the scope of the "Learn" section.
+
+### ETHEREUM?
+
+The "ETHEREUM?" section provides links to resources and exciting events happening in the Ethereum world.
+
+## License
+
+The code in this repository is licensed under the [MIT License](LICENSE.md), which allows you to freely use, modify, and distribute the code. However, it does not grant permission to copy or use the content of this website for commercial purposes without explicit permission from the owner.
+
+## Disclaimer
+
+ByteGuide is a personal project aimed at practicing coding skills, and its features and roadmap are subject to change at the owner's discretion. While we encourage collaboration and contributions, please refrain from copying or distributing the content without permission.
