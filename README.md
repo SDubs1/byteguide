@@ -20,9 +20,9 @@ The website consists of the following main sections:
 ### Landing Page
 
 - Welcome to ByteGuide!
-- What is web3? (links to "Learn" section)
-- How do I use web3? (links to "Guides" section)
-- How do I not screw it all up? (links to "Best Practices" section)
+- What is web3? (Explore the "Learn" section for an introduction to web3 technologies)
+- How do I use web3? (Discover wallets and staking in "Guides" section)
+- How do I not screw it all up? (Find essential tips in the "Best Practices" section)
 
 ### Learn
 
