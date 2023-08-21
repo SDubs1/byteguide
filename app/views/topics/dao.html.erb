@@ -1,6 +1,137 @@
 <div class="container">
-<h3>What is a DAO?</h3>
-  <p>A DAO, or Decentralized Autonomous Organization, is like a digital community where decisions are made collectively by its members, without any central authority. It's like a self-governing village, where people vote on important matters and the rules are enforced automatically by smart contracts.</p>
 
-  <p>In these communities, participation is often enabled through tokens or NFTs, which act as a membership pass or a way to contribute to the decision-making process. It's like having a special key that grants you the right to have a say and shape the direction of the community.</p>
-</div>
+<h3>What is a DAO?</h3>
+
+  <p>DAOs (Decentralized Autonomous Organizations) are online communities where decisions are made through community votes. Basic criteria for participation is based on ownership of tokens or NFTs. Some DAOs enable direct voting on proposals, while others enable token holders to delegate their votes to a trusted DAO representative.</p>
+
+<h4>Examples of DAOs</h4>
+
+  <table>
+    <tr>
+      <th>DAO</th>
+      <th>Function</th>
+      <th>Interesting Developments/Features</th>
+      <th>Notes</th>
+    </tr>
+    <tr>
+      <td>Maker DAO</td>
+      <td>Decentralized lending platform.</td>
+      <td>Users deposit assets and receive “stable coins”, DAI, as collateral. Notable features include the use of smart contracts to maintain stability, the MKR token for governance and risk management, and the concept of "Vaults" for collateral management.</td>
+      <td> System reliance on collateral value stability and potential vulnerabilities in the underlying assets can impact the stability of the Dai token. MakerDAO is one of the oldest DAOs on Ethereum blockchain.</td>
+    </tr>
+    <tr>
+      <td>Optimism DAO</td>
+      <td>Layer-2 scaling solution for Ethereum.</td>
+      <td>Designed to improve the network's scalability and reduce transaction fees. Has potential to alleviate scalability concerns and has gained attention for its role in enhancing the usability of Ethereum-based decentralized applications (or dApps). </td>
+      <td>Coinbase, the largest US exchange, recently released its own blockchain developed with Optimism substack. Community values aim toward adoption, onboarding, and public goods.</td>
+    </tr>
+    <tr>
+      <td>Gitcoin DAO</td>
+      <td>Crowdfunding platform for Web3 startups and public goods.</td>
+      <td>Funds are raised with quadratic funding*, which provides a large impact from user donations.</td>
+      <td>Gitcoin additionally has built it’s own Web3 technologies, like Gitcoin passport, a solution for proving authenticity of Web3 users and preventing spam and manipulation from bots and alt-accounts.</td>
+    </tr>
+      <tr>
+      <td>ENS (Ethereum Name Services) DAO</td>
+      <td>Domain name service for Ethereum.</td>
+      <td>Enables users to replace complex hexadecimal addresses with human-readable domain names. making it easier for users to interact with blockchain applications. Domain names can prove useful in circumventing phishing and clipboard hijacking attacks.</td>
+      <td>Like traditional domain names, ENS domain names sell for high value on the open market.</td>
+    </tr>
+  </table>
+
+<br>
+
+<h4>DAO Governance</h4>
+  <h5>Pros</h5>
+  <ul>
+    <li>Participant responses are immutable and verifiable.
+      <ul>
+        <li>Users can vote for, against, or abstain from proposals. Responses are recorded on the blockchain.</li>
+      </ul>
+    </li>
+    <li>Users are empowered to have an impact on governance and finance.
+      <ul>
+        <li>This gives opportunities for communities to have a direct impact on important decisions without a middleman or central authority.</li>
+      </ul>
+    </li>
+    <li>Participants maintain autonomy over their votes.
+      <ul>
+        <li>Sole voting power lies with the user.</li>
+      </ul>
+    </li>
+  </ul>
+
+<br>
+
+  <h5>Cons</h5>
+  <ul>
+    <li>Influence through wealth accumulation creates a "digital plutocracy", where the wealthiest participants have disproportionate influence.</li>
+    <li>Users can often be incentivized to vote in their own financial interests.</li>
+    <li>DAO development teams can still reject or ignore the will of the community.</li>
+  </ul>
+
+<br>
+
+  <h5>Challenges</h5>
+  <ul>
+    <li>"Worthless governance tokens"
+      <ul>
+        <li>DAO tokens are commonly used for raising funds for projects through retail investors. Average DAO token performance overwhelmingly follows "pump and dump" trends.</li>
+      </ul>
+    </li>
+    <li>Sybil attacks
+      <ul>
+        <li>Community members creating multiple "sock puppet" accounts to manipulate votes or engage in other fraudulent activity.</li>
+      </ul>
+    </li>
+    <li>Voter privacy
+      <ul>
+        <li>While there could be some potential public benefit to voting transparency, i.e., in the cases of the voting records of public officials, voter privacy should be protected. In the current state of DAOs, all user voting data is publicly available.</li>
+      </ul>
+    </li>
+  </ul>
+
+<br>
+
+  <h5>DAOs gone wrong</h5>
+  <ul>
+    <li>Tornado Cash DAO exploit
+      <ul>
+        <li>Tornado Cash DAO suffered a hack where an attacker exploited a proposal, taking control of the project and draining tokens.</li>
+      </ul>
+    </li>
+    <li>Arbitrum team's management of funds
+      <ul>
+        <li>Arbitrum team preemptively spent tokens before the results of a DAO vote where the community rejected the spending of $1 billion worth of ARB tokens.</li>
+      </ul>
+    </li>
+    <li>"The DAO hack"
+      <ul>
+        <li>The Ethereum DAO hack involved an attacker exploiting vulnerabilities to drain a significant amount of Ether from the Decentralized Autonomous Organization (DAO). This incident led to a contentious debate within the Ethereum community, resulting in a contentious hard fork to reverse the hack and recover the stolen funds.</li>
+      </ul>
+    </li>
+  </ul>
+
+<br>
+
+  <h5>Solutions</h5>
+  <ul>
+    <li>Account abstraction for user privacy and sybil resistance
+      <ul>
+        <li>User authenticity and individuality can be verified by using technologies like zero knowledge proofs, which can prove that users match certain criteria for voting eligibility, while not revealing their identity to the public.</li>
+      </ul>
+    </li>
+    <li>Smart Contract Security audits
+      <ul>
+        <li>Smart contract security audits enhance both DAOs and the broader Web3 ecosystem by identifying and mitigating vulnerabilities in code. For DAOs, audits bolster governance integrity, preventing attacks and ensuring token-holder interests.</li>
+      </ul>
+    </li>
+  </ul>
+
+<br>
+
+  <h5>Critiques</h5>
+  <ul>
+    <li>DAO tokens having a monetary value create "worthless governance tokens" that hold no real-world value beyond speculation, commonly used for raising funds for projects through retail investors. Average DAO token performance overwhelmingly follows "pump and dump" trends.</li>
+    <li>An imperfect system that despite the potential sovereignty of participants is still vulnerable to mere human corruption.</li>
+  </ul>
